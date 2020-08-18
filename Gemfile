@@ -41,6 +41,8 @@ gem 'kaminari'
 gem 'kaminari-i18n'
 gem "cocoon"
 gem 'prawn-rails'
+gem 'redis'
+gem 'hiredis'
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.1.0', require: false

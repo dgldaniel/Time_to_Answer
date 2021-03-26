@@ -1,24 +1,58 @@
-# README
+This project was made to study the Ruby on Rails framework
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### Screenshots
 
-Things you may want to cover:
 
-* Ruby version
+### Main features
 
-* System dependencies
+- User/Admin devise
+- i18n
+- Custom rails task
+- CRUD
+- Pagination
+- Fix problem N+1 SQL
+- Using Nested Attributes
+- Scopes
+- AJAX
+- Using counter_cache
+- Using Active Storage
+- Using Action Mailer
+- Consult API external
+- Using PDF
 
-* Configuration
+### Prerequisites
 
-* Database creation
+The setups steps expect following tools installed on the system.
 
-* Database initialization
+- Github
+- Ruby 2.6.3
+- Rails 5.2.1
 
-* How to run the test suite
+##### 1. Check out the repository
 
-* Services (job queues, cache servers, search engines, etc.)
+```bash
+git clone https://github.com/dgldaniel/TimeToAnswer-Rails.git
+```
 
-* Deployment instructions
+##### 2. Create and setup the database
 
-* ...
+Run the following commands to create and setup the database.
+
+```ruby
+rails db:create
+rails db:setup
+```
+
+##### 3. Start the Rails server
+
+You can start the rails server using the command given below.
+
+```ruby
+rails s
+```
+
+And now you can visit the site with the URL http://localhost:3000
+
+### References
+
+[Ruby on Rails 5.x - Do início ao fim!](https://www.udemy.com/course/rubyonrails-5x/)

@@ -1,7 +1,15 @@
-This project was made to study the Ruby on Rails framework
+![Logo of the project](https://cdn-images-1.medium.com/max/1600/1*OZCuYAREKtSJHzfl4FYlvQ.jpeg)
+
+This project was made to learn the Ruby on Rails framework - Quiz
 
 ### Screenshots
-
+<p float="left">
+  <img src="https://github.com/dgldaniel/TimeToAnswer-Rails/blob/master/public/screenshots/screen_shot_1.png?raw=true" width="70%" height="70%" alt="Print 01" />
+  <img src="https://github.com/dgldaniel/TimeToAnswer-Rails/blob/master/public/screenshots/screen_shot_2.png?raw=true" width="70%" height="70%" alt="Print 02" />
+  <img src="https://github.com/dgldaniel/TimeToAnswer-Rails/blob/master/public/screenshots/screen_shot_3.png?raw=true" width="70%" height="70%" alt="Print 03" />
+  <img src="https://github.com/dgldaniel/TimeToAnswer-Rails/blob/master/public/screenshots/screen_shot_4.png?raw=true" width="70%" height="70%" alt="Print 04" />
+  <img src="https://github.com/dgldaniel/TimeToAnswer-Rails/blob/master/public/screenshots/screen_shot_5.png?raw=true" width="70%" height="70%" alt="Print 05" />
+</p>
 
 ### Main features
 
@@ -27,6 +35,8 @@ The setups steps expect following tools installed on the system.
 - Github
 - Ruby 2.6.3
 - Rails 5.2.1
+- Nodejs
+- Yarn
 
 ##### 1. Check out the repository
 
@@ -34,7 +44,17 @@ The setups steps expect following tools installed on the system.
 git clone https://github.com/dgldaniel/TimeToAnswer-Rails.git
 ```
 
-##### 2. Create and setup the database
+##### 2. Install dependencies
+
+```ruby
+bundle install
+```
+
+```js
+yarn install
+```
+
+##### 3. Create and setup the database
 
 Run the following commands to create and setup the database.
 
@@ -43,7 +63,7 @@ rails db:create
 rails db:setup
 ```
 
-##### 3. Start the Rails server
+##### 4. Start the Rails server
 
 You can start the rails server using the command given below.
 
